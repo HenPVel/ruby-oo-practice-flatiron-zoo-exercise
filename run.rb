@@ -4,7 +4,10 @@ require 'pry'
 
 
 #Test your code here
+san_diego = Zoo.new("California", "San Diego Zoo")
+bronx_zoo = Zoo.new("New York", "Bronx Zoo")
 
+tiger = Animal.new("Cat", 120, "Tony" )
 
 binding.pry
 puts "done"
