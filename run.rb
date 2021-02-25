@@ -9,9 +9,8 @@ bronx_zoo = Zoo.new("New York", "Bronx Zoo")
 
 tiger = Animal.new("Cat", 120, "Tony" )
 flamingo = Animal.new("Bird", 90, "Flappy")
+sheep = Animal.new("Sheep", 100, "Shawn")
 
-tiger.add_animal("California")
-flamingo.add_animal("New York")
 
 binding.pry
 puts "done"
