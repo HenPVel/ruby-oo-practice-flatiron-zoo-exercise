@@ -4,7 +4,7 @@ require 'pry'
 
 
 #Test your code here
-
+zebra = Zoo.new("zebra", "forest")
 
 binding.pry
 puts "done"
