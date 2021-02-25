@@ -13,8 +13,12 @@ class Zoo
         @@all_zoos
     end
 
-    def self.location
-        @location << self
+    def animals
+        Animals.all.select {|animal| animal.zoo == self}
     end
+
+   # def self.location
+       # @location << self
+    # end
 
 end
